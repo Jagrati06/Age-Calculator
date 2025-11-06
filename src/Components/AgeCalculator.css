@@ -1,0 +1,71 @@
+/* Dark modern theme with black & gray tones */
+body {
+  background: #121212;
+  color: #f5f5f5;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.age-box {
+  background: #1e1e1e;
+  padding: 40px 50px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  width: 350px;
+}
+
+.age-box input[type="date"] {
+  background: #2a2a2a;
+  color: #f5f5f5;
+  border: 1px solid #333;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: border 0.2s ease, background 0.2s ease;
+  width: 100%;
+}
+
+.age-box input[type="date"]:focus {
+  border-color: #6c63ff;
+  background: #252525;
+}
+
+#btn {
+  margin-top: 20px;
+  background: #6c63ff;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+#btn:hover {
+  background: #7a73ff;
+  transform: translateY(-2px);
+}
+
+#btn:active {
+  background: #5a52ff;
+  transform: translateY(0);
+}
+
+p {
+  margin-top: 25px;
+  font-size: 18px;
+  color: #e0e0e0;
+}
+
+p span {
+  color: #6c63ff;
+  font-weight: 600;
+}
